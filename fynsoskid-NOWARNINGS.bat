@@ -14,6 +14,6 @@ where g++ || (
 g++ mlt.cpp -o mlt.exe || exit /b 1
 
 :: Running stuff
-mlt.exe
+start mlt.exe
 
 endlocal
